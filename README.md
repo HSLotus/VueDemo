@@ -1,16 +1,29 @@
-# Vue 3 + Vite
+## 项目简介
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+自用轻量化前端框架，基于 Vue3 + Vite + Element-Plus + Vuex 等主流技术栈构建的后台管理的前端模板。
 
-## Recommended IDE Setup
+## 特点
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- 数据交互：同时支持本地 Mock 和线上接口，可以配置多开发环境的接口模板
+- 权限管理：简单的权限管理，根据权限改变路由守卫和动态路由。
+- 基础设施：动态路由、按钮权限、Axios的二次封装。
 
-# Vuex
+## 项目部署
+1. 安装yarn
 
+```
+npm install -g yarn 
+```
 
-# element-plus
+2. 安装依赖
 
-# router
+```
+yarn install
+```
 
-# mockjs
+3. 启动 
+
+```
+yarn dev 
+```
+
